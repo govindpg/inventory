@@ -1,0 +1,38 @@
+body {
+       font-family: Arial, sans-serif;
+   }
+   .sidebar {
+       width: 90px;
+       height: 100%;
+       position:fixed;
+       transition: width 0.3s;
+       overflow: hidden;
+   }
+   .sidebar:hover {
+       width: 250px;
+   }
+   .sidebar .list-group-item {
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+   }
+   .sidebar .list-group-item span {
+       display: none;
+   }
+   .sidebar:hover .list-group-item span {
+       display: inline;
+   }
+   .sidebar .list-group-item i {
+       width: 30px;
+   }
+
+   .mat-stepper-vertical {
+       margin-top: 8px;
+     }
+     
+     .mat-mdc-form-field {
+       margin-top: 16px;
+     }
+     #main-navbar{
+       background-color: #FCF6F5 !important;
+     }
